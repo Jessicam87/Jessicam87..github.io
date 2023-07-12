@@ -1,0 +1,26 @@
+.contacto__box{
+   display: flex;
+   flex-direction: column;
+   padding-top: 1rem;
+   align-items: center;
+   
+}
+
+@media screen and (min-width:0){    
+   .contacto__box{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding-left: 1rem;
+      padding-right: 1rem;
+   } 
+}
+
+@media screen and (min-width:768px){  
+   .formacion{
+       display: flex;
+       flex-wrap: wrap;
+       align-items: center;
+   }
+        
+}

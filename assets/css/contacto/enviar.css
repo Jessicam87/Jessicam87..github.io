@@ -1,0 +1,32 @@
+.enviar{
+    text-align: center;
+    color: rgb(97, 97, 98);
+    background: rgb(193, 223, 224);
+    border-style: solid;
+    border-color: #424949;
+    border-width: 2px;
+    width: 50%;
+    padding: 8px;
+    cursor: pointer;
+    }
+
+    .enviar:hover{
+        background: white;
+        transform: scale(1.2);
+    }
+
+    @media screen and (min-width:0){  
+        .enviar{
+            width: 25%;
+            height: 30px;
+            font-size: 12px;
+        }   
+    }
+    
+    @media screen and (min-width:768px){    
+        .enviar{
+            width: 50%; 
+            height: 40px;
+            font-size: 15px;
+        }     
+    }

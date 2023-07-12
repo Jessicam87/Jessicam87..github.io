@@ -1,0 +1,16 @@
+.referencia__boton--demo{
+    background: #e1e0de;
+    padding: 4px 6px;
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: #424949;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+
+.referencia__boton--demo:hover{
+    background: white;
+    transform: scale(1.2);
+}
+

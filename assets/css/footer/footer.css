@@ -1,0 +1,13 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Dancing Script;
+    font-size: 20px;
+    background: rgb(219, 170, 199);
+    background: linear-gradient(to right, rgb(17 182 114), rgb(217 148 210));
+}
+
+
+
+

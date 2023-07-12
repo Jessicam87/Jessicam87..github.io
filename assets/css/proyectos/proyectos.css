@@ -1,0 +1,25 @@
+.proyectos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(193, 223, 224);
+    box-sizing: border-box;
+    border-width: 6px;
+    padding-bottom: 2rem;
+}
+
+@media screen and (min-width:0){   
+    .proyectos{
+        display: flex;
+        flex-direction: column;
+    }  
+}
+
+@media screen and (min-width:768px){    
+    .proyectos{
+        display: flex;
+        flex-direction: column;  
+    }     
+}
+

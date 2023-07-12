@@ -1,0 +1,18 @@
+.titulo__descripcion{
+    color: #424949;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+
+@media screen and (min-width:0){
+    .titulo__descripcion{
+        font-size: 14px;
+    }      
+}
+
+@media screen and (min-width:768px){
+    .titulo__descripcion{
+        font-size: 20px; 
+    }
+}

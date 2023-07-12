@@ -1,0 +1,6 @@
+.formacion__box{
+    display: flex;
+   justify-content: space-evenly;
+   padding-top: 2rem;
+   background-size: cover;
+}

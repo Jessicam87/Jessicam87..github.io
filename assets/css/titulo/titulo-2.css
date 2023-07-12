@@ -1,0 +1,18 @@
+.titulo__2{
+    color: #424949 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4000rem;
+    margin-top: 0.5rem; 
+}
+
+@media screen and (min-width:0){  
+    .titulo__2{
+        font-size: 14px;
+    }   
+}
+
+@media screen and (min-width:768px){
+    .titulo__2{
+        font-size: 1.4000rem; 
+    }         
+}

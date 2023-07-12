@@ -1,0 +1,24 @@
+.formacion{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-image: url(../../img/banner.png);
+    margin-top: 2rem;
+    text-align: center;  
+}
+
+
+@media screen and (min-width:0){    
+    .formacion{
+        display: flex;
+        justify-content: center;
+    } 
+}
+
+@media screen and (min-width:768px){  
+    .formacion{
+        display: flex;
+        flex-wrap: wrap;
+    }
+         
+}

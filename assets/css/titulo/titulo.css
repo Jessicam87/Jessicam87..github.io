@@ -1,0 +1,25 @@
+.titulo{
+    background-image: url(../../img/banner.png);
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-top: 2rem;
+}
+
+@media screen and (min-width:0){ 
+    .titulo{
+        display: flex;
+        justify-content: center;
+    }    
+}
+
+@media screen and (min-width:768px){
+    .titulo{
+        display: flex;
+        justify-content: center;
+    }
+           
+}
